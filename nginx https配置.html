@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>nginx https配置</title></head>
+<body><h1>nginx https配置</h1>
+<h2>1.nginx配置https前准备</h2>
+<p>&nbsp;</p>
+<p>1.先去申请证书，可以付费的也可以免费，我用了一个免费证书 <a href='https://freessl.org/'>freessl</a>，如下所示，我们填入需要申请的域名和选择品牌，然后创建SSL证书。</p>
+<p><img src='C:\Users\qing\Pictures\Camera Roll\freeSSL.PNG' alt='' referrerPolicy='no-referrer' /></p>
+<p>&nbsp;</p>
+<p>2.创建成功后会弹出如下界面</p>
+<p><img src='C:\Users\qing\Pictures\Camera Roll\generatro key.PNG' alt='' referrerPolicy='no-referrer' /></p>
+<p>配置如图所示，这里我们有csr所以吧csr填入表单。如果需要这里是生成csr <a href='https://myssl.com/csr_create.html'>MySSL</a>。填写好资料生产，<strong>这里需要注意，把csr文件和key文件保存下来，后面证书需要用到。</strong></p>
+<p><img src='C:\Users\qing\Pictures\Camera Roll\csr&amp;ke.PNG' alt='' referrerPolicy='no-referrer' /></p>
+<p>把csr内容复制到证书申请网站表单，然后点击创建。</p>
+<p>创建完成后需要对域名校验，这里是为了确认是你自己的域名。校验完成后下载证书。</p>
+<h2>注！！！</h2>
+<p>通过 MySSL生产的csr填写的域名需要和你freessl填写的域名一致。</p>
+<p>eg：</p>
+<blockquote><p>MySSL --- api.xxxx.com  |  freessl --- api.xxxx.com</p>
+<p>MySSL --- web.xxxx.com  |  freessl --- web.xxxx.com</p>
+<p>MySSL --- <a href='http://www.xxxx.com' target='_blank' class='url'>www.xxxx.com</a>  |  freessl --- <a href='http://www.xxxx.com' target='_blank' class='url'>www.xxxx.com</a></p>
+</blockquote>
+<p>这里要对应起来，不然浏览器会报证书不安全，那么表示https配置有问题。这时候在小程序中是无法访问的。</p>
+<h2>2.nginx配置https</h2>
+<p>centoshttps配置如下</p>
+<p><img src='C:\Users\qing\Pictures\Camera Roll\centos ssl.PNG' alt='' referrerPolicy='no-referrer' /></p>
+<p>full_chain.pem是申请下来的证书</p>
+<p>SSL是生成的私钥 （MySSL 生产的，如有疑问，请看MySSL的生成 ）</p>
+<p>&nbsp;</p>
+</body>
+</html>
