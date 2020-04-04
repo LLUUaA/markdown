@@ -129,7 +129,7 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'NewPassw
 
 
 
-##忘记密码怎么办?
+## 忘记密码怎么办?
 
 1.从安全模式进入mysql
 
@@ -156,6 +156,10 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '1
 修改root账户密码
 
 FLUSH PRIVILEGES;  刷新
+
+## 忘记密码怎么办2?
+
+​	mysqladmin -u root password newpwd
 
 ## 错误记录
 
