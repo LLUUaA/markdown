@@ -26,6 +26,7 @@
 - **SingleChildScrollView**<widget> 滑动页面布局
 - **Container** <widget >容器（可以设置border、margin、padding 、backgroundImage）
 - **Stack** <widget >堆容器（如果您想以简单的方式重叠多个子级，例如具有一些文本和图像，并用渐变和一个附加在底部的按钮覆盖）
+- **Positioned**<widget>定位容器
 - **GestureDetector**<widget> 手势检测容器 (eg: onTap onLongPress etx..)
 
 
