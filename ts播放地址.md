@@ -66,3 +66,5 @@ http://hls.cntv.lxdns.com/asp/hls/main/0303000a/3/default/978a64ddd3a1caa85ae70a
 [{"src":"http://haoa.haozuida.com/20181121/ThH88aMg/index.m3u8","name":"三傻大闹宝莱坞BD1280高清中字版"}]
 
 [{"src":"http://iqiyi.zuidameiju.com/20200320/13748_e32f5d98/index.m3u8","name":"阿波罗18号BD超清中字"}]
+
+[{"src":"http://iqiyi.zuidameiju.com/20200311/13452_b76b01d2/index.m3u8","name":"异次元骇客BD中字"}]
