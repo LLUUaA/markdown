@@ -63,10 +63,6 @@ http://hls.cntv.lxdns.com/asp/hls/main/0303000a/3/default/978a64ddd3a1caa85ae70a
 
 [{"src":"https://yiqikan.wuyouzuida.com/20191205/2170_dd6f7a13/index.m3u8","name":"星际穿越洛丽塔HD高清"},{"src":"http://yiyi.55zuiday.com/20180713/hLy3tsRO/index.m3u8","name":"星际穿越中的科学BD1280高清中英双字版"},{"src":"http://leshi.cdn-zuyida.com/20180116/MXNrnKqw/index.m3u8","name":"星际穿越BD1280高清特效中英字幕版"}]
 
-[{"src":"http://haoa.haozuida.com/20181121/ThH88aMg/index.m3u8","name":"三傻大闹宝莱坞BD1280高清中字版"}]
-
-[{"src":"http://iqiyi.zuidameiju.com/20200320/13748_e32f5d98/index.m3u8","name":"阿波罗18号BD超清中字"}]
-
 [{"src":"http://iqiyi.zuidameiju.com/20200311/13452_b76b01d2/index.m3u8","name":"异次元骇客BD中字"}]
 
 [{"src":"http://yiyi.55zuiday.com/20180304/mL8412TB/index.m3u8","name":"阿凡达 加长版BD1280高清中英双字版"}]
