@@ -1,4 +1,4 @@
-Mysql Community Server官网下载链接
+Mysql Community Server官网下载链接[链接](https://dev.mysql.com/downloads/mysql/)
 
 注：本教程针对Mysql-8.0.21，未进行测试其他版本，可能会有存在区别，请自行判断。
 
